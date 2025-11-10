@@ -37,7 +37,7 @@ const Login = () => {
         placeholder="Password"
         required
       />
-      <div className="w-full flex justify-between text-sm mt-[-8px]">
+      <div className="w-full flex justify-between text-sm -mt-2">
         <p className="cursor-pointer">Forgot your password?</p>
         {currentState === "Login" ? (
           <p
